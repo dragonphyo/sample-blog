@@ -39,8 +39,4 @@ public class AuthorController {
         return "admin/authors";
     }
 
-    @GetMapping("/layout")
-    public String tstLayout(){
-        return "layout/adminLayout";
-    }
 }
